@@ -31,6 +31,7 @@ nav .logoImage {
 .container > div {
     border-radius: 5px;
     height: 310px;
+    width: 600px;
     background-image: linear-gradient(rgba(0,0,0,0.40),rgba(0,0,0,0.40)),url(../images/navImage.jpg);
     background-size: cover;
     background-attachment: fixed;
