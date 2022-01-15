@@ -26,12 +26,12 @@ nav .logoImage {
     grid-gap: 25px;
     margin-left: 330px;
     margin-top: 50px;
+    width: 800px;
 }
 
 .container > div {
     border-radius: 5px;
     height: 310px;
-    width: 900px;
     background-image: linear-gradient(rgba(0,0,0,0.40),rgba(0,0,0,0.40)),url(../images/navImage.jpg);
     background-size: cover;
     background-attachment: fixed;
