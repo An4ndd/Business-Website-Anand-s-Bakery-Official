@@ -24,13 +24,14 @@ nav .logoImage {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-gap: 25px;
-    margin-left: 330px;
+    margin-left: 200px;
     margin-top: 50px;
+    width: 1400px;
 }
 
 .container > div {
     border-radius: 5px;
-    height: 310px;
+    height: 250px;
     background-image: linear-gradient(rgba(0,0,0,0.40),rgba(0,0,0,0.40)),url(../images/navImage.jpg);
     background-size: cover;
     background-attachment: fixed;
