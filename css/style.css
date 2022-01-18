@@ -7,7 +7,7 @@
 }
 
 body {
-    background: #131516;/*rgb(77, 76, 76); rgb(107, 107, 107);*/
+    background: #17191a;/*rgb(77, 76, 76); rgb(107, 107, 107);#131516;*/
     font-family: 'Roboto';
     text-align: center;
 }
@@ -23,16 +23,15 @@ nav .logoImage {
 .container {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-gap: 25px;
-    margin-left: 200px;
-    margin-top: 50px;
-    width: 1400px;
+    grid-gap: 14px;
+    margin-left: 270px;
+    width: 1250px;
 }
 
 .container > div {
     border-radius: 5px;
     height: 250px;
-    background-image: linear-gradient(rgba(0,0,0,0.40),rgba(0,0,0,0.40)),url(../images/navImage.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.37),rgba(0,0,0,0.37)),url(../images/navImage.jpg);
     background-size: cover;
     background-attachment: fixed;
     transition: transform 500ms ease;
@@ -45,7 +44,7 @@ nav .logoImage {
 }
 
 .container > div:hover {
-    opacity: 0.7;
+    opacity: 0.6;
     transform: scale(0.98);
 }
 
@@ -90,13 +89,17 @@ nav {
     font-family: 'Bebas Neue', cursive;
     font-family: 'Roboto', sans-serif;
     margin-top: 60px;
-    margin-right: 130px;
+    margin-right: 270px;
 }
 
 nav h3 {
     font-weight: lighter;
-    margin-bottom: 75px;
+    margin-bottom: 35px;
     font-size: 1.40em;
+}
+
+a {
+    text-decoration: none;
 }
 
 
