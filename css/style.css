@@ -8,7 +8,7 @@
 }
 
 body {
-    background: #17191a;
+    background: #333638;
     font-family: 'Bebas Neue', cursive;
     font-family: 'Roboto', sans-serif;
     text-align: center;
@@ -16,7 +16,6 @@ body {
 
 nav .logoImage {
     width: 280px;
-    cursor: pointer;
     margin-top: -45px;
     margin-right: 15px;
     float: left;
@@ -33,7 +32,7 @@ nav .logoImage {
 .container > div {
     border-radius: 5px;
     height: 250px;
-    background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)),url(../images/navImage.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.30),rgba(0,0,0,0.30)),url(../images/navImage.jpg);
     background-size: cover;
     background-attachment: fixed;
     transition: transform 500ms ease;
