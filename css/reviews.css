@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #333638;
+}
+
+.header {
+    background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)),url(../images/reviewsImage.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 400px;
+    padding: 70px;
+}
+
+.pencilIcon {
+    width: 100px;
+    height: auto;
+}
+
+.header h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 65px;
+    font-weight: lighter;
+}
+
+a {
+    text-decoration: none;
+}
+
+.grid {
+    margin: 80px 50px 80px 80px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    align-items: center;
+}
+
+article img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+article {
+    justify-content: center;
+    text-align: center;
+    background: #fff;
+    width: 400px;
+    height: 550px;
+}
+
+article h1 {
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+
+article p {
+    padding: 15px;
+    font-size: 22px;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+
+div .border {
+    border-bottom: 5px solid #333638;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.stars {
+    color: #333638;
+}
