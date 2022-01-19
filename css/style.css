@@ -32,7 +32,7 @@ nav .logoImage {
 .container > div {
     border-radius: 5px;
     height: 250px;
-    background-image: linear-gradient(rgba(0,0,0,0.30),rgba(0,0,0,0.30)),url(../images/navImage.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.40),rgba(0,0,0,0.40)),url(../images/navImage.jpg);
     background-size: cover;
     background-attachment: fixed;
     transition: transform 500ms ease;
