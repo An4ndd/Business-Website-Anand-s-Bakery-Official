@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap');
 
 * {
     margin: 0;
@@ -40,3 +41,193 @@ body {
 a {
     text-decoration: none;
 }
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-left: 90px;
+    margin-top: 50px;
+    margin-right: 100px;
+    position: relative;
+    grid-gap: 30px;
+}
+
+.wrapper img {
+    width: 500px;
+    height: auto;
+}
+
+.wrapper .info-box-1 h1 {
+    color: #fff;
+    font-size: 55px;
+    font-family: 'Outfit', sans-serif;
+    word-spacing: 5px;
+    letter-spacing: 1.5px;
+    font-weight: bolder;
+}
+
+.wrapper .info-box-1 h3 span {
+    color: rgb(180, 67, 67);
+    font-weight: bold;
+    font-size: 28px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.wrapper .info-box-1 h3 {
+    color: #8b8b8b;
+    font-weight: bold;
+    font-size: 28px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.wrapper .info-box-1 {
+    background: #333638;
+    margin-right: 50px;
+    padding: 1em;
+}
+
+.wrapper .image1 {
+    margin-left: 100px;
+}
+
+.wrapper .info-box-1 p {
+    color: #fff;
+    font-weight: normal;
+    font-size: 24px;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1.5px;
+    line-height: 32px;
+    font-style: italic;
+}
+
+/*Wrapper 2*/
+
+.wrapper2 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-left: 125px;
+    position: relative;
+    grid-gap: 30px;
+}
+
+.wrapper2 img {
+    width: 650px;
+    height: 600px;
+    margin-left: 40px;
+}
+
+.wrapper2 .info-box-2 h1 {
+    color: #fff;
+    font-size: 55px;
+    font-family: 'Outfit', sans-serif;
+    word-spacing: 5px;
+    letter-spacing: 1.5px;
+    font-weight: bolder;
+}
+
+.wrapper2 .info-box-2 h3 span {
+    color: rgb(180, 67, 67);
+    font-weight: bold;
+    font-size: 28px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.wrapper2 .info-box-2 h3 {
+    color: #8b8b8b;
+    font-weight: bold;
+    font-size: 28px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.wrapper2 .info-box-2 {
+    background: #333638;
+    margin-left: 50px;
+    padding: 1em;
+}
+
+.wrapper2 .info-box-2 p {
+    color: #fff;
+    font-weight: normal;
+    font-size: 24px;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1.5px;
+    line-height: 32px;
+    font-style: italic;
+}
+
+/*Wrapper 3*/
+
+.wrapper3 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-left: 75px;
+    margin-top: 50px;
+    margin-right: 100px;
+    position: relative;
+    grid-gap: 30px;
+}
+
+.wrapper3 img {
+    width: 500px;
+    height: 370px;
+    margin-left: 100px;
+}
+
+.wrapper3 .info-box-3 h3 {
+    color: #fff;
+    font-size: 55px;
+    font-family: 'Outfit', sans-serif;
+    word-spacing: 5px;
+    letter-spacing: 1.5px;
+    font-weight: bolder;
+}
+
+.wrapper3 .info-box-3 h3 span {
+    color: rgb(180, 67, 67);
+    font-weight: bold;
+    font-size: 28px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.wrapper3 .info-box-3 h3 {
+    color: #8b8b8b;
+    font-weight: bold;
+    font-size: 28px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.wrapper3 .info-box-3 {
+    background: #333638;
+    margin-right: 50px;
+    padding: 1em;
+}
+
+.wrapper3 .info-box-3 p {
+    color: #fff;
+    font-weight: normal;
+    font-size: 24px;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1.5px;
+    line-height: 32px;
+    font-style: italic;
+}
+
+.wrapper3 .info-box-3 h1 {
+    color: #fff;
+    font-size: 55px;
+    font-family: 'Outfit', sans-serif;
+    word-spacing: 5px;
+    letter-spacing: 1.5px;
+    font-weight: bolder;
+}
+
+
+
+
+
+
