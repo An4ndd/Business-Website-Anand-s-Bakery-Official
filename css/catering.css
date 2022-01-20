@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #333638;
+}
+
+.header {
+    background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)),url(../images/cateringFoodBoxCropped.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 400px;
+    padding: 70px;
+}
+
+.cateringIcon {
+    width: 100px;
+    height: auto;
+}
+
+.header h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 65px;
+    font-weight: lighter;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-left: 90px;
+    margin-top: 50px;
+    margin-right: 100px;
+    position: relative;
+    grid-gap: 30px;
+}
+
+.wrapper img {
+    width: 500px;
+    height: 380px;
+}
+
+.wrapper .info-box-1 h1 {
+    color: #fff;
+    font-size: 55px;
+    font-family: 'Outfit', sans-serif;
+    word-spacing: 5px;
+    letter-spacing: 1.5px;
+    font-weight: bolder;
+}
+
+.wrapper .info-box-1 h3 span {
+    color: rgb(180, 67, 67);
+    font-weight: bold;
+    font-size: 28px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.wrapper .info-box-1 h3 {
+    color: #8b8b8b;
+    font-weight: bold;
+    font-size: 28px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.wrapper .info-box-1 {
+    background: #333638;
+    margin-right: 50px;
+    padding: 1em;
+}
+
+.wrapper .image1 {
+    margin-left: 100px;
+}
+
+.wrapper .info-box-1 p {
+    color: #fff;
+    font-weight: normal;
+    font-size: 24px;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1.5px;
+    line-height: 32px;
+    font-style: italic;
+}
+
+.wrapper .info-box-1 button {
+    background: rgb(180, 67, 67);
+    color: #fff;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.wrapper .info-box-1 button:hover {
+    color: #8b8b8b;
+    transition: color 2s ease-out;
+}
